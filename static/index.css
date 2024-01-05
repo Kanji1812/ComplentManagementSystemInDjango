@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.logo {
+    height: 55px;
+    width: 57px;
+}
+
+.bg-light {
+    border-radius: 0px 0px 20px 20px;
+    background-color: #00ffffe6 !important;
+    
+}
+
+.navbar-nav {
+    margin: 0px 164px;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    margin: 0px 43px;
+    /* border: 2px solid red; */
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-radius: 0px 10px 0px 10px;
+    color: rgb(255, 252, 252);
+    /* background-color: black; */
+  
+
+}
+.himage{
+    margin: 2px 4px;
+}
+.box {
+    display: flex;
+
+}
+
+.cont {
+    background-color: rgb(126, 241, 187);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 232px;
+    margin: 29px 20px;
+    width: 508px;
+}
+.right{
+    width: 66px;
+    height: 41px;
+    /* padding: 0px 19px; */
+    margin: 79px 0px;
+}
+
+
+
+/* @media screen and (min-width: 1279px){
+.navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+} */
+.footer{
+    background-color:rgb(118, 177, 231);
+    height:666px;
+    border: 2px solid red;
+}
+.fh{
+ text-align: center;
+ color: aliceblue;
+ text-decoration: underline;
+}
+.fimage{
+    position: absolute;
+    right: 76px;
+}
+.cname{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 15px 37px;
+}
